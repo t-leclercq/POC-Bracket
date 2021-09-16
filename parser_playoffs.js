@@ -119,8 +119,9 @@ readJsonFileToText("matches.json", function(text){
         var _wb1 = document.getElementById('wb1');
         console.log(wb1[i]);
         _wb1.innerHTML += `
-        <div class="d-flex flex-column border-bottom-0 mb-3">
-            <div class="d-flex flex-row justify-content-between border rounded bg-white mb-1">
+        <div class="d-flex flex-column border-bottom-0 mb-4">
+        <span class="align-middle p-0 badge badge-pill bg-dark">Début : ${moment.utc(wb1[i].ebot[Object.keys(wb1[i].ebot)[0]].players[0].created_at).format('HH:mm')}</span>
+            <div class="d-flex flex-row justify-content-between border rounded bg-white">
                 <p class="${wb1[i].toor.equipes[0].resultat === "win" ? "text-success" : "text-danger" } p-0 m-0">${wb1[i].toor.equipes[0].name}</p>
                 <span class="badge ${wb1[i].toor.equipes[0].resultat === "win" ? "bg-success text-white" : "bg-danger text-white" } my-0">${wb1[i].toor.equipes[0].score}</span>
             </div>
@@ -134,8 +135,9 @@ readJsonFileToText("matches.json", function(text){
     for (var i = 0; i < wb2.length; i++) {
         var _wb2 = document.getElementById('wb2');
         _wb2.innerHTML += `
-        <div class="d-flex flex-column border-bottom-0 mb-3">
-            <div class="d-flex flex-row justify-content-between border rounded bg-white mb-1">
+        <div class="d-flex flex-column border-bottom-0 mb-4">
+            <span class="align-middle p-0 badge badge-pill bg-dark">Début : ${moment.utc(wb2[i].ebot[Object.keys(wb2[i].ebot)[0]].players[0].created_at).format('HH:mm')}</span>
+            <div class="d-flex flex-row justify-content-between border rounded bg-white">
                 <p class="${wb2[i].toor.equipes[0].resultat === "win" ? "text-success" : "text-danger" } p-0 m-0">${wb2[i].toor.equipes[0].name}</p>
                 <span class="badge ${wb2[i].toor.equipes[0].resultat === "win" ? "bg-success text-white" : "bg-danger text-white" } my-0">${wb2[i].toor.equipes[0].score}</span>
             </div>
@@ -149,8 +151,9 @@ readJsonFileToText("matches.json", function(text){
     for (var i = 0; i < wb3.length; i++) {
         var _wb3 = document.getElementById('wb3');
         _wb3.innerHTML += `
-        <div class="d-flex flex-column border-bottom-0 mb-3">
-            <div class="d-flex flex-row justify-content-between border rounded bg-white mb-1">
+        <div class="d-flex flex-column border-bottom-0 mb-4">
+        <span class="align-middle p-0 badge badge-pill bg-dark">Début : ${moment.utc(wb3[i].ebot[Object.keys(wb3[i].ebot)[0]].players[0].created_at).format('HH:mm')}</span>
+            <div class="d-flex flex-row justify-content-between border rounded bg-white">
                 <p class="${wb3[i].toor.equipes[0].resultat === "win" ? "text-success" : "text-danger" } p-0 m-0">${wb3[i].toor.equipes[0].name}</p>
                 <span class="badge ${wb3[i].toor.equipes[0].resultat === "win" ? "bg-success text-white" : "bg-danger text-white" } my-0">${wb3[i].toor.equipes[0].score}</span>
             </div>
@@ -164,8 +167,9 @@ readJsonFileToText("matches.json", function(text){
     for (var i = 0; i < wb4.length; i++) {
         var _wb4 = document.getElementById('wb4');
         _wb4.innerHTML += `
-        <div class="d-flex flex-column border-bottom-0 mb-3">
-            <div class="d-flex flex-row justify-content-between border rounded bg-white mb-1">
+        <div class="d-flex flex-column border-bottom-0 mb-4">
+        <span class="align-middle p-0 badge badge-pill bg-dark">Début : ${moment.utc(wb4[i].ebot[Object.keys(wb4[i].ebot)[0]].players[0].created_at).format('HH:mm')}</span>
+            <div class="d-flex flex-row justify-content-between border rounded bg-white">
                 <p class="${wb4[i].toor.equipes[0].resultat === "win" ? "text-success" : "text-danger" } p-0 m-0">${wb4[i].toor.equipes[0].name}</p>
                 <span class="badge ${wb4[i].toor.equipes[0].resultat === "win" ? "bg-success text-white" : "bg-danger text-white" } my-0">${wb4[i].toor.equipes[0].score}</span>
             </div>
@@ -179,8 +183,9 @@ readJsonFileToText("matches.json", function(text){
     for (var i = 0; i < gf.length; i++) {
         var _gf = document.getElementById('GF');
         _gf.innerHTML += `
-        <div class="d-flex flex-column border-bottom-0 mb-3">
-            <div class="d-flex flex-row justify-content-between border rounded bg-white mb-1">
+        <div class="d-flex flex-column border-bottom-0 mb-4">
+        <span class="align-middle p-0 badge badge-pill bg-dark">Début : ${moment.utc(gf[i].ebot[Object.keys(gf[i].ebot)[0]].players[0].created_at).format('HH:mm')}</span>
+            <div class="d-flex flex-row justify-content-between border rounded bg-white">
                 <p class="${gf[i].toor.equipes[0].resultat === "win" ? "text-success" : "text-danger" } p-0 m-0">${gf[i].toor.equipes[0].name}</p>
                 <span class="badge ${gf[i].toor.equipes[0].resultat === "win" ? "bg-success text-white" : "bg-danger text-white" } my-0">${gf[i].toor.equipes[0].score}</span>
             </div>
@@ -196,8 +201,9 @@ readJsonFileToText("matches.json", function(text){
         var _lb1 = document.getElementById('lb1');
         console.log(wb1[i]);
         _lb1.innerHTML += `
-        <div class="d-flex flex-column border-bottom-0 mb-3">
-            <div class="d-flex flex-row justify-content-between border rounded bg-white mb-1">
+        <div class="d-flex flex-column border-bottom-0 mb-4">
+        <span class="align-middle p-0 badge badge-pill bg-dark">Début : ${moment.utc(lb1[i].ebot[Object.keys(lb1[i].ebot)[0]].players[0].created_at).format('HH:mm')}</span>
+            <div class="d-flex flex-row justify-content-between border rounded bg-white">
                 <p class="${lb1[i].toor.equipes[0].resultat === "win" ? "text-success" : "text-danger" } p-0 m-0">${lb1[i].toor.equipes[0].name}</p>
                 <span class="badge ${lb1[i].toor.equipes[0].resultat === "win" ? "bg-success text-white" : "bg-danger text-white" } my-0">${lb1[i].toor.equipes[0].score}</span>
             </div>
@@ -211,8 +217,9 @@ readJsonFileToText("matches.json", function(text){
     for (var i = 0; i < lb2.length; i++) {
         var _lb2 = document.getElementById('lb2');
         _lb2.innerHTML += `
-        <div class="d-flex flex-column border-bottom-0 mb-3">
-            <div class="d-flex flex-row justify-content-between border rounded bg-white mb-1">
+        <div class="d-flex flex-column border-bottom-0 mb-4">
+        <span class="align-middle p-0 badge badge-pill bg-dark">Début : ${moment.utc(lb2[i].ebot[Object.keys(lb2[i].ebot)[0]].players[0].created_at).format('HH:mm')}</span>
+            <div class="d-flex flex-row justify-content-between border rounded bg-white">
                 <p class="${lb2[i].toor.equipes[0].resultat === "win" ? "text-success" : "text-danger" } p-0 m-0">${lb2[i].toor.equipes[0].name}</p>
                 <span class="badge ${lb2[i].toor.equipes[0].resultat === "win" ? "bg-success text-white" : "bg-danger text-white" } my-0">${lb2[i].toor.equipes[0].score}</span>
             </div>
@@ -226,8 +233,9 @@ readJsonFileToText("matches.json", function(text){
     for (var i = 0; i < lb3.length; i++) {
         var _lb3 = document.getElementById('lb3');
         _lb3.innerHTML += `
-        <div class="d-flex flex-column border-bottom-0 mb-3">
-            <div class="d-flex flex-row justify-content-between border rounded bg-white mb-1">
+        <div class="d-flex flex-column border-bottom-0 mb-4">
+        <span class="align-middle p-0 badge badge-pill bg-dark">Début : ${moment.utc(lb3[i].ebot[Object.keys(lb3[i].ebot)[0]].players[0].created_at).format('HH:mm')}</span>
+            <div class="d-flex flex-row justify-content-between border rounded bg-white">
                 <p class="${lb3[i].toor.equipes[0].resultat === "win" ? "text-success" : "text-danger" } p-0 m-0">${lb3[i].toor.equipes[0].name}</p>
                 <span class="badge ${lb3[i].toor.equipes[0].resultat === "win" ? "bg-success text-white" : "bg-danger text-white" } my-0">${lb3[i].toor.equipes[0].score}</span>
             </div>
@@ -241,8 +249,9 @@ readJsonFileToText("matches.json", function(text){
     for (var i = 0; i < lb4.length; i++) {
         var _lb4 = document.getElementById('lb4');
         _lb4.innerHTML += `
-        <div class="d-flex flex-column border-bottom-0 mb-3">
-            <div class="d-flex flex-row justify-content-between border rounded bg-white mb-1">
+        <div class="d-flex flex-column border-bottom-0 mb-4">
+        <span class="align-middle p-0 badge badge-pill bg-dark">Début : ${moment.utc(lb4[i].ebot[Object.keys(lb4[i].ebot)[0]].players[0].created_at).format('HH:mm')}</span>
+            <div class="d-flex flex-row justify-content-between border rounded bg-white">
                 <p class="${lb4[i].toor.equipes[0].resultat === "win" ? "text-success" : "text-danger" } p-0 m-0">${lb4[i].toor.equipes[0].name}</p>
                 <span class="badge ${lb4[i].toor.equipes[0].resultat === "win" ? "bg-success text-white" : "bg-danger text-white" } my-0">${lb4[i].toor.equipes[0].score}</span>
             </div>
@@ -256,8 +265,9 @@ readJsonFileToText("matches.json", function(text){
     for (var i = 0; i < lb5.length; i++) {
         var _lb5 = document.getElementById('lb5');
         _lb5.innerHTML += `
-        <div class="d-flex flex-column border-bottom-0 mb-3">
-            <div class="d-flex flex-row justify-content-between border rounded bg-white mb-1">
+        <div class="d-flex flex-column border-bottom-0 mb-4">
+        <span class="align-middle p-0 badge badge-pill bg-dark">Début : ${moment.utc(lb5[i].ebot[Object.keys(lb5[i].ebot)[0]].players[0].created_at).format('HH:mm')}</span>
+            <div class="d-flex flex-row justify-content-between border rounded bg-white">
                 <p class="${lb5[i].toor.equipes[0].resultat === "win" ? "text-success" : "text-danger" } p-0 m-0">${lb5[i].toor.equipes[0].name}</p>
                 <span class="badge ${lb5[i].toor.equipes[0].resultat === "win" ? "bg-success text-white" : "bg-danger text-white" } my-0">${lb5[i].toor.equipes[0].score}</span>
             </div>
